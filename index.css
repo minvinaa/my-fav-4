@@ -1,0 +1,43 @@
+body {
+    background-color: #BBDEFB;
+}
+
+#header img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#header {
+    background: rgb(142, 163, 228);
+    background: linear-gradient(90deg, rgba(142, 163, 228, 1) 0%, rgba(138, 200, 244, 1) 41%, rgba(0, 178, 167, 1) 100%);
+}
+
+#nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
